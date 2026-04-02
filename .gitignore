@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+outputs/
+tracking.csv
+job_agent/config.yaml
+job_agent/candidate_profile.yaml

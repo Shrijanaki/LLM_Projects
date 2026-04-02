@@ -1,0 +1,34 @@
+name: Jane Doe
+email: jane@example.com
+phone: "+1 555-123-4567"
+location: Austin, TX
+linkedin: https://linkedin.com/in/janedoe
+github: https://github.com/janedoe
+summary: |
+  Product-minded software engineer with 5+ years building backend services,
+  data pipelines, and AI-enabled workflow automation.
+
+skills:
+  - Python
+  - FastAPI
+  - SQL
+  - PostgreSQL
+  - Docker
+  - AWS
+  - LangChain
+  - LLM orchestration
+  - Playwright
+
+experience_bullets:
+  - Built an internal workflow automation platform in Python serving 20+ teams.
+  - Created ETL pipelines with SQL and PostgreSQL reducing reporting delays by 65%.
+  - Implemented API services with FastAPI and Docker for production deployment on AWS.
+  - Integrated LLM-based assistant tooling with retrieval and guardrails for safe outputs.
+
+projects:
+  - name: AI Application Agent
+    bullets:
+      - Automated web form filling workflows using Playwright with human approval gates.
+      - Added relevance scoring logic to rank opportunities by weighted skill overlap.
+education:
+  - B.S. in Computer Science, University of Texas

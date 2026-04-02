@@ -1,0 +1,12 @@
+Dear Hiring Team at {{ job.company }},
+
+I am excited to apply for the {{ job.title }} role. My experience aligns well with your needs, especially in:
+{% for point in selected_experience %}- {{ point }}
+{% endfor %}
+
+I am particularly interested in this position because it emphasizes {{ top_job_focus }}.
+
+Thank you for your consideration.
+
+Sincerely,
+{{ profile.name }}

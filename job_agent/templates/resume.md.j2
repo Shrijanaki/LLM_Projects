@@ -1,0 +1,27 @@
+# {{ profile.name }}
+
+Email: {{ profile.email }} | Phone: {{ profile.phone }}
+Location: {{ profile.location }}
+LinkedIn: {{ profile.linkedin }} | GitHub: {{ profile.github }}
+
+## Summary
+{{ profile.summary }}
+
+## Matched Skills for {{ job.company }} - {{ job.title }}
+{% for skill in selected_skills %}- {{ skill }}
+{% endfor %}
+
+## Experience Highlights (Selected for this role)
+{% for bullet in selected_experience %}- {{ bullet }}
+{% endfor %}
+
+## Projects
+{% for project in profile.projects %}
+### {{ project.name }}
+{% for bullet in project.bullets %}- {{ bullet }}
+{% endfor %}
+{% endfor %}
+
+## Education
+{% for edu in profile.education %}- {{ edu }}
+{% endfor %}
